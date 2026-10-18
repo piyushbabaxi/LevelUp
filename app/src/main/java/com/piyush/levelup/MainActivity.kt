@@ -17,7 +17,7 @@ class MainActivity : Activity() {
     }
 
     private val green = Color.rgb(177, 255, 73)
-    private val background = Color.rgb(12, 14, 13)
+    private val backgroundColor = Color.rgb(12, 14, 13)
     private val card = Color.rgb(28, 32, 29)
 
     private lateinit var content: LinearLayout
@@ -84,7 +84,7 @@ class MainActivity : Activity() {
         content = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(22, 30, 22, 24)
-            setBackgroundColor(background)
+            setBackgroundColor(backgroundColor)
         }
 
         content.addView(
